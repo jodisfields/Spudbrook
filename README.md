@@ -1,9 +1,7 @@
-# Docker Install Script
-    ```
+# Running The Script
     git clone https://github.com/jodisfields/Spudbrook.git
     cd Spudbrook
     sh setup.sh
-    ```
 # Packages Installed
     apt-transport-https
     ca-certificates
