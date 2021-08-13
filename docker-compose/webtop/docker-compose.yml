@@ -1,0 +1,18 @@
+version: "2.1"
+services:
+  webtop:
+    image: ghcr.io/linuxserver/webtop
+    container_name: webtop
+    privileged: true
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Australia/Sydney
+      - SUBFOLDER=/
+    volumes:
+      - /path/to/data:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 3000:3000
+    shm_size: "1gb"
+    restart: unless-stopped

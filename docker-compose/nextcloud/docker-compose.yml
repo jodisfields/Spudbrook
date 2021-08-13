@@ -1,0 +1,6 @@
+version: "2"
+services:
+  netbox:
+    image: linuxserver/netbox:version-v2.11.11
+    container_name: netbox
+    restart: no
