@@ -10,5 +10,13 @@
     lsb-release
     docker
     docker-compose
-# Deployments
+# Docker Compose
     Wiki.JS
+    Webtop
+    Portainer
+    Portainer Agent
+    Netbox
+    Dokuwiki
+    Snibox
+    Nextcloud
+    Nefarious
