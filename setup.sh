@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install Docker Dependencies 
 echo "Installing Dependencies"
-sleep <3>
+sleep 3
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -20,11 +20,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo usermod -aG docker $USER
 newgrp docker
 echo "Install Successful"
-sleep <3>
+sleep 3
 docker --version
-sleep <3>
+sleep 3
 docker-compose --version   
-sleep <3>
+sleep 3
 cd docker-compose
 # initialize docker swarm
 docker swarm init
