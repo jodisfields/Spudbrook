@@ -1,7 +1,7 @@
 # Running The Script
     git clone https://github.com/jodisfields/Spudbrook.git
     cd Spudbrook
-    sh setup.sh
+    sh install.sh
 # Packages Installed
     apt-transport-https
     ca-certificates
